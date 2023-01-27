@@ -1,0 +1,12 @@
+.page__header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+.menu {
+  background-color: orangered;
+  position:fixed;
+  left: 0;
+  top: 0;
+  padding: 10px; 
+}
