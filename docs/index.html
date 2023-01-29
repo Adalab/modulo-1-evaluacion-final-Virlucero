@@ -16,26 +16,29 @@
     <div class="page">
       <header class="page__header">
         <nav class="menu">
-          <img
-            src="./assets/images/menu-icon.png"
-            alt="menu icon"
-            width="15px"
-            height="15px"
-          />
+          <a href="https://adalab.es/">
+            <img
+              src="./assets/images/menu-icon.png"
+              alt="menu icon"
+              width="15px"
+              height="15px" />
+          </a>
         </nav>
       </header>
 
       <main>
         <section class="section1">
           <div class="title">
-            <h1>Hasta un 50% de descuento</h1>
+            <h1 id="top">Hasta un 50% de descuento</h1>
             <p>Ya estan aqui las ofertas de fin de temporada</p>
-            <img
-              class="scroll-down"
-              src="/assets/images/ico-scroll-down.svg"
-              alt="ico-scroll-down"
-              width="60px"
-              height="60px" />
+            <a href="#new-year">
+              <img
+                class="scroll-down"
+                src="/assets/images/ico-scroll-down.svg"
+                alt="ico-scroll-down"
+                width="60px"
+                height="60px" />
+            </a>
           </div>
         </section>
         <section class="section2">
@@ -47,10 +50,10 @@
             la plena consciencia que tan bien nos hace sentir
           </p>
 
-          <button class="boton-comprar">Comprar</button>
+          <button class="buy-button">Comprar</button>
         </section>
         <section class="section3">
-          <h2>Año nuevo, movimientos nuevos</h2>
+          <h2 id="new-year">Año nuevo, movimientos nuevos</h2>
           <div class="wrapper">
             <div class="item">
               <h3>Entrenamientos</h3>
@@ -65,18 +68,41 @@
               <h3>Exclusividad</h3>
               <p>Porductos para miembros premium</p>
             </div>
-
-            <button class="empezar-ahora">Empezar ahora</button>
           </div>
+          <button class="start-button">Empezar ahora</button>
         </section>
       </main>
 
       <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <a href="#top">
+          <img
+            class="arrow"
+            src="./assets/images/ico-arrow.svg"
+            width="50px"
+            height="50px"
+            alt="arrow" />
+        </a>
 
-        </small>
+        <div class="footer-section-wraper">
+          <div class="footer-section">
+            <a href="https://adalab.es/">zapatillas</a>
+            <a href="https://adalab.es/">ropa</a>
+            <a href="https://adalab.es/">niño/a</a>
+            <a href="https://adalab.es/">destacados</a>
+            <a href="https://adalab.es/">tips</a>
+          </div>
+
+          <div class="footer-section">
+            <a href="https://adalab.es/">twitter</a>
+            <a href="https://adalab.es/">instagram</a>
+            <a href="https://adalab.es/">youtube</a>
+          </div>
+        </div>
+
+        <div class="footer-section copyright">
+          <small>&copy;2023</small>
+          <small>we &#10084; run</small>
+        </div>
       </footer>
 
     </div>
