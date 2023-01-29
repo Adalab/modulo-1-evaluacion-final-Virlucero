@@ -78,6 +78,7 @@
 
 .buy-button:hover {
     transform: scale(1.2);
+    transition: all 1s ease-out;
 }
 .section3 {
     padding: 4rem;
@@ -124,10 +125,10 @@
     padding: 1rem;
     font-size: large;
     margin-top: 2rem;
-
 }
 
-
-
-        
-
+.start-button:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-out;
+    background-color: aqua; -
+}
